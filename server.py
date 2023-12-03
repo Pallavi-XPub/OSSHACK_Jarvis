@@ -10,7 +10,7 @@ from openai import OpenAI
 client = OpenAI(api_key='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')
 
 app = Flask(__name__)
-app.logger.setLevel(logging.DEBUG)
+app.logger.setLevel(logging.ERROR)
 
 socketio = SocketIO(app, logger=True, engineio_logger=True)
 
