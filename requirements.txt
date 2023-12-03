@@ -1,0 +1,9 @@
+pyaudio
+SpeechRecognition
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch
+numpy
+websockets
+python-socketio[client]
+faster_whisper
+TTS
