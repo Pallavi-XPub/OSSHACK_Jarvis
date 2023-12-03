@@ -7,7 +7,6 @@ JARVIS is an AI-based conversational assistant that leverages cutting-edge open-
 1. Speech Recognition: Utilizes advanced STT models to accurately transcribe user speech into text.
 2. Conversational AI: Employs OpenAI's GPT model for natural language understanding and generation.
 3. Text-to-Speech: Converts JARVIS's textual responses back into lifelike speech using state-of-the-art TTS models.
-4. Streamlit GUI: Simple and intuitive interface for voice recording and receiving audio responses.
 
 **Installation**
 To set up JARVIS on your local machine:
@@ -25,11 +24,10 @@ To start JARVIS:
 Start the server:
 python3 server.py
 
-Run the Streamlit App:
-streamlit run main.py
+Start the client:
+python3 client.py
 
-Interacting with JARVIS:
+Start talking to Jarvis when it says recording.
 
-Open the Streamlit GUI in your web browser.
-Use the 'Record' button to start speaking to JARVIS.
-Wait for the response from JARVIS, which will be played back through the speakers.
+
+
