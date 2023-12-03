@@ -7,7 +7,7 @@ import io
 from faster_whisper import WhisperModel
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='<YOUR_API_KEY_HERE>')
 
 app = Flask(__name__)
 app.logger.setLevel(logging.ERROR)
