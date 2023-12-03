@@ -159,7 +159,6 @@ torchaudio==2.1.1
 tqdm==4.66.1
 trainer==0.0.32
 transformers==4.35.2
-triton==2.1.0
 TTS==0.21.3
 typer==0.9.0
 typing_extensions==4.8.0
